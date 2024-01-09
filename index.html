@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>socialmedia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="my-form">
+            <div>
+                <label for="post">Post Link:</label>
+                <input id="post" type="text">
+            </div>
+            
+            <div>
+                <label for="des">Post Description:</label>
+                <input  id="des" type="text">
+            </div>
+
+            <div >
+                <button type="button" id="btn" onclick="createPost()">Create Post</button>
+            </div>
+
+        </form>
+    </div>
+    <h2 style="text-align: center;">Posts</h2>
+    <ul id="ul">
+
+
+
+
+    </ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
